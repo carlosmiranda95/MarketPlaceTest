@@ -1,0 +1,42 @@
+.root {
+  color: #555 !important; }
+
+.formControl {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.underline:hover:not(disabled):before, .underline:before {
+  border-color: #D2D2D2 !important;
+  border-width: 1px !important; }
+
+.underline:after {
+  border-bottom: 2px solid #006989 !important; }
+
+.underlineDanger:hover:not(disabled):before, .underlineDanger:before {
+  border-color: #D2D2D2 !important;
+  border-width: 1px !important; }
+
+.underlineDanger:after {
+  border-bottom: 2px solid #d32f2f !important; }
+
+.labelRoot {
+  color: red; }
+
+.icon {
+  padding: 5px !important; }
+
+.focused {
+  color: #006989 !important; }
+
+.shrink {
+  color: #555 !important; }
+
+.helperText {
+  color: #d32f2f !important; }
+
+.input {
+  color: #555 !important; }
+
+.important {
+  font-weight: bold !important;
+  color: #000 !important; }

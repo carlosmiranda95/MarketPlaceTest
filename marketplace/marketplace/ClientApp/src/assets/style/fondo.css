@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body::-webkit-scrollbar, .MuiPaper-root::-webkit-scrollbar, div::-webkit-scrollbar {
+  width: 8px;
+  /* Tamaño del scroll en vertical */
+  height: 8px;
+  /* Tamaño del scroll en horizontal */ }
+
+body::-webkit-scrollbar-track, .MuiPaper-root::-webkit-scrollbar-track, div::-webkit-scrollbar-track {
+  background: rgba(0, 105, 137, 0.2); }
+
+body::-webkit-scrollbar-thumb, .MuiPaper-root::-webkit-scrollbar-thumb {
+  background: rgba(0, 105, 137, 0.5);
+  border-radius: 4px; }
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover, .MuiPaper-root::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 105, 137, 0.6);
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); }
+
+/* Cambiamos el fondo cuando esté en active */
+body::-webkit-scrollbar-thumb:active, .MuiPaper-root::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 105, 137, 0.8); }

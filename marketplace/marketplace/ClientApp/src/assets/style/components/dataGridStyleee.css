@@ -1,0 +1,12 @@
+.dx-row.dx-header-row{
+    background: red !important;
+}
+.dx-datagrid-action.dx-cell-focus-disabled:hover{
+    background: red !important;
+}
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td .dx-sort-indicator,
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td .dx-sort,
+.dx-datagrid-text-content.dx-text-content-alignment-left.dx-header-filter-indicator,
+.dx-header-filter.dx-header-filter-empty{
+    color:#fff !important;
+}

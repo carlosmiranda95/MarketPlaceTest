@@ -1,0 +1,36 @@
+  .labelData {
+    float: left;
+    font-weight: bold
+  }
+
+  .spanText {
+    font-weight: normal
+  }
+
+  .labelLot  {
+    font-weight: normal;
+    display: block
+  }
+
+  .textAlignRight
+  {
+    text-align: right;
+    font-weight: bold;
+    float: right;
+  }
+
+  .dateText
+  {
+    background-color: #337ab7;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+  }
+
+  .linkMyOrders
+  {
+    text-decoration: none;
+    color: #337ab7;
+  }

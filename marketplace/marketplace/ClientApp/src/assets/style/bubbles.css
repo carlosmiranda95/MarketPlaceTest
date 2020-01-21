@@ -1,0 +1,51 @@
+.center-outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .center-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    }
+    
+    /* Essential CSS - Makes the effect work */
+    
+  
+    
+    .bubbles {
+    display: inline-block;
+    font-family: arial;
+    position: relative;
+    }
+    
+    .bubbles h1 {
+    position: relative;
+    margin: 1em 0 0;
+    font-family: 'Luckiest Guy', cursive;
+    color: #fff;
+    z-index: 2;
+    }
+    
+    .individual-bubble {
+    position: absolute;
+    border-radius: 100%;
+    bottom: 10px;
+    background-image: url("../img/gota.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-color: transparent;
+    z-index: 1;
+    }
+    .fondoWater{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(17deg,#000304 20%,#64ced0 80%);
+        background-attachment: fixed;
+        transition: all .5s ease-in
+    }

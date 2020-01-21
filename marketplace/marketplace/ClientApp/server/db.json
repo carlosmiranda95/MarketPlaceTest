@@ -1,0 +1,46 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Juan Antonio Martinez",
+      "job": "Arquitecto",
+      "twitter": "jmartinez",
+      "email": "jmartinez@correo.com"
+    },
+    {
+      "id": 2,
+      "name": "Carla Andrea Gomez Suarez",
+      "job": "Licenciada",
+      "twitter": "cgomez",
+      "email": "cgomez@correo.com"
+    },
+    {
+      "id": 3,
+      "name": "Carla Andrea Gomez Suarez",
+      "job": "Licenciada",
+      "twitter": "cgomez",
+      "email": "cgomez@correo.com"
+    },
+    {
+      "id": 4,
+      "name": "Carla Andrea Gomez Suarez",
+      "job": "Licenciada",
+      "twitter": "cgomez",
+      "email": "cgomez@correo.com"
+    },
+    {
+      "name": "edward alvaro nuñez garcía",
+      "job": "ingeniero",
+      "twitter": "enunez",
+      "email": "enunez@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "joge",
+      "job": "analista desarrollador de sistemas",
+      "twitter": "",
+      "email": "joge@gruposion.bo",
+      "id": 6
+    }
+  ]
+}

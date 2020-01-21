@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  marketplace:
+    image: marketplace:latest
+    ports:
+      - "3000:80"
+    environment:
+        URL_SERVICES: "ecommerce-bol"
+        PORT_SERVICES: "12000"
+
+networks:
+  default:
+    external:
+      name: "web_erp_backend" 

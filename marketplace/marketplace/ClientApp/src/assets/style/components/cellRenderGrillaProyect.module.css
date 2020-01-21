@@ -1,0 +1,42 @@
+.image {
+  width: 100%;
+  height: 150px; }
+
+.itemCell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .itemCell p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 0;
+    font-size: 16px;
+    font-weight: bold; }
+  .itemCell span {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal; }
+  .itemCell .descuento {
+    color: red; }
+  .itemCell .conDescuento {
+    color: #4caf50; }
+  .itemCell .cuotaInicial {
+    font-size: 12px;
+    color: #4caf50; }
+  .itemCell .mensual {
+    font-size: 10px;
+    color: #4caf50; }

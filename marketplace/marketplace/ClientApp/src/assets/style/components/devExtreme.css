@@ -1,0 +1,11 @@
+.dx-selectbox {
+  bottom: -14px; }
+
+.dx-texteditor.dx-state-focused:before {
+  border-bottom: 2px solid #006989 !important; }
+
+.dx-texteditor.dx-editor-underlined:after {
+  border-bottom: 1px solid #D2D2D2; }
+
+.dx-texteditor.dx-editor-underlined.dx-state-hover:after {
+  border-bottom: 1px solid #D2D2D2; }

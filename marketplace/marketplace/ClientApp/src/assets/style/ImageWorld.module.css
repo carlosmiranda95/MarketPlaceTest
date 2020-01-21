@@ -1,0 +1,625 @@
+.ContenedorSvg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: calc(100vh - 70px);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 5px; }
+
+.logokalomai {
+  position: fixed;
+  width: 250px;
+  height: 100px;
+  -webkit-animation: AnimationLogokalomai 2s linear;
+  animation: AnimationLogokalomai 2s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  z-index: 500; }
+
+@-webkit-keyframes AnimationLogokalomai {
+  0% {
+    width: 100%;
+    height: calc(100vh - 70px); }
+  81% {
+    height: calc(100vh - 70px); }
+  95% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 100%;
+    height: 100px; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 250px;
+    height: 100px; } }
+
+@keyframes AnimationLogokalomai {
+  0% {
+    width: 100%;
+    height: calc(100vh - 70px); }
+  81% {
+    height: calc(100vh - 70px); }
+  95% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 100%;
+    height: 100px; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 250px;
+    height: 100px; } }
+
+.k {
+  stroke: #fff;
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 0;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation: AnimationK 2s linear;
+  animation: AnimationK 2s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationK {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 1500;
+    fill: transparent; }
+  50% {
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    fill: transparent; }
+  51% {
+    stroke-dashoffset: 0; }
+  80% {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in; }
+  81% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: transparent; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: "url(#SVGID_11_)"; } }
+
+@keyframes AnimationK {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 1500;
+    fill: transparent; }
+  50% {
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    fill: transparent; }
+  51% {
+    stroke-dashoffset: 0; }
+  80% {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in; }
+  81% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: transparent; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: "url(#SVGID_11_)"; } }
+
+.alomai {
+  stroke: #fff;
+  stroke-dasharray: 4100;
+  stroke-dashoffset: 0;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation: AnimationALOMAI 2s linear;
+  animation: AnimationALOMAI 2s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationALOMAI {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 4100;
+    fill: transparent; }
+  50% {
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    fill: transparent; }
+  80% {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    stroke-dashoffset: 0; }
+  81% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: transparent; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: "url(#SVGID_11_)"; } }
+
+@keyframes AnimationALOMAI {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 4100;
+    fill: transparent; }
+  50% {
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    fill: transparent; }
+  80% {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    stroke-dashoffset: 0; }
+  81% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: transparent; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: "url(#SVGID_11_)"; } }
+
+.i {
+  stroke: #fff;
+  stroke-dasharray: 170;
+  stroke-dashoffset: 0;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation: AnimationI 2s linear;
+  animation: AnimationI 2s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationI {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 170;
+    fill: transparent; }
+  10% {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    stroke-dashoffset: 0; }
+  80% {
+    opacity: 1; }
+  81% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 0;
+    fill: transparent; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: "url(#SVGID_11_)"; } }
+
+@keyframes AnimationI {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 170;
+    fill: transparent; }
+  10% {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    stroke-dashoffset: 0; }
+  80% {
+    opacity: 1; }
+  81% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 0;
+    fill: transparent; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: "url(#SVGID_11_)"; } }
+
+.park {
+  stroke: #fff;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation: AnimationPARK 3s linear;
+  animation: AnimationPARK 3s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationPARK {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  81% {
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); } }
+
+@keyframes AnimationPARK {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  81% {
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); } }
+
+.ola {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation: AnimationOLA 3s linear;
+  animation: AnimationOLA 3s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationOLA {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  81% {
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); } }
+
+@keyframes AnimationOLA {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  81% {
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); } }
+
+.st0 {
+  -webkit-clip-path: url(#Mascara_1_);
+  clip-path: url(#Mascara_1_); }
+
+.st1 {
+  fill: #74CFE8;
+  stroke: #FFFFFF;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10; }
+
+.st2 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10; }
+
+.st3 {
+  fill: url(#SVGID_1_); }
+
+.st4 {
+  fill: url(#SVGID_2_); }
+
+.st5 {
+  fill: url(#SVGID_3_); }
+
+.st6 {
+  fill: url(#SVGID_4_); }
+
+.st7 {
+  fill: url(#SVGID_5_); }
+
+.st8 {
+  fill: #30C0FF; }
+
+.st9 {
+  fill: url(#SVGID_6_); }
+
+.st10 {
+  fill: url(#SVGID_7_); }
+
+.st11 {
+  fill: url(#SVGID_8_); }
+
+.st12 {
+  fill: url(#SVGID_9_); }
+
+.st13 {
+  fill: url(#SVGID_10_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10; }
+
+.st14 {
+  fill: url(#SVGID_11_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10; }
+
+.st15 {
+  fill: url(#SVGID_12_);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10; }
+
+.st16 {
+  fill: url(#SVGID_13_); }
+
+.st17 {
+  fill: #FAC100; }
+
+.st18 {
+  fill: #FF0C00; }
+
+.st19 {
+  fill: #009B00; }
+
+.paisCompania {
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation: AnimationPaisCompania 3.5s linear;
+  animation: AnimationPaisCompania 3.5s linear;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationPaisCompania {
+  0% {
+    opacity: .2; }
+  50% {
+    opacity: .2; }
+  100% {
+    opacity: 1 !important; } }
+
+@keyframes AnimationPaisCompania {
+  0% {
+    opacity: .2; }
+  50% {
+    opacity: .2; }
+  100% {
+    opacity: 1 !important; } }
+
+.letra {
+  stroke: #fff;
+  stroke-dasharray: 125;
+  stroke-dashoffset: 0;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation: AnimationLetraPais 4.5s linear;
+  animation: AnimationLetraPais 4.5s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationLetraPais {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 125;
+    fill: transparent; }
+  49% {
+    opacity: 1;
+    stroke-dashoffset: 125;
+    fill: transparent; }
+  50% {
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    fill: transparent; }
+  80% {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    stroke-dashoffset: 0; }
+  81% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 0;
+    fill: transparent; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: fff; } }
+
+@keyframes AnimationLetraPais {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 125;
+    fill: transparent; }
+  49% {
+    opacity: 1;
+    stroke-dashoffset: 125;
+    fill: transparent; }
+  50% {
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    fill: transparent; }
+  80% {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    stroke-dashoffset: 0; }
+  81% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 0;
+    fill: transparent; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+    fill: fff; } }
+
+.linea {
+  stroke: #fff;
+  fill: transparent;
+  stroke-dasharray: 250;
+  stroke-dashoffset: 450;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation: AnimationLinea 2.2s linear;
+  animation: AnimationLinea 2.2s linear; }
+
+@-webkit-keyframes AnimationLinea {
+  from {
+    stroke-dashoffset: 250; }
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes AnimationLinea {
+  from {
+    stroke-dashoffset: 250; }
+  to {
+    stroke-dashoffset: 0; } }
+
+.paises {
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: .7;
+  -webkit-animation: AnimationPaises 7.5s linear;
+  animation: AnimationPaises 7.5s linear;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationPaises {
+  0% {
+    opacity: .2; }
+  50% {
+    opacity: .2; }
+  100% {
+    opacity: .7 !important; } }
+
+@keyframes AnimationPaises {
+  0% {
+    opacity: .2; }
+  50% {
+    opacity: .2; }
+  100% {
+    opacity: .7 !important; } }
+
+.textoPais {
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  opacity: .7;
+  -webkit-animation: AnimationTextoPais 6.5s linear;
+  animation: AnimationTextoPais 6.5s linear;
+  transition: all .3s ease;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate; }
+
+@-webkit-keyframes AnimationTextoPais {
+  0% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  100% {
+    opacity: 1 !important; } }
+
+@keyframes AnimationTextoPais {
+  0% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  100% {
+    opacity: 1 !important; } }
+
+.flecha {
+  opacity: 0; }

@@ -1,0 +1,176 @@
+.appBar {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  border: 0 !important;
+  padding: 0.625rem 0 !important;
+  margin-bottom: 20px !important;
+  color: #fff !important;
+  width: 100% !important;
+  background: -webkit-linear-gradient(3deg, #00111d 0, #df0209 100%);
+  background: -o-linear-gradient(3deg, #00111d 0, #df0209 100%);
+  background: linear-gradient(87deg, #00111d 0, #df0209 100%);
+  -webkit-box-shadow: 0 4px 18px 0px rgba(0, 105, 137, 0.12), 0 7px 10px -5px rgba(0, 105, 137, 0.15);
+  box-shadow: 0 4px 18px 0px rgba(0, 105, 137, 0.12), 0 7px 10px -5px rgba(0, 105, 137, 0.15);
+  -webkit-transition: all 150ms ease 0s;
+  -o-transition: all 150ms ease 0s;
+  transition: all 150ms ease 0s;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+  max-height: 70px !important;
+  position: relative;
+  z-index: unset; }
+
+.absolute {
+  position: absolute;
+  z-index: 1100; }
+
+.fixed {
+  position: fixed;
+  z-index: 1100; }
+
+.container {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  min-height: 50px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  max-width: 100% !important; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+.title {
+  font-weight: 300;
+  line-height: 1.5em;
+  line-height: 30px;
+  font-size: 18px;
+  border-radius: 3px;
+  text-transform: none;
+  color: inherit;
+  padding: 8px 16px;
+  letter-spacing: unset; }
+  .title:hover, .title:focus {
+    color: inherit;
+    background: transparent; }
+
+.appResponsive {
+  margin: 20px 10px; }
+
+.drawerPaper {
+  border: none;
+  bottom: 0;
+  -webkit-transition-property: top, bottom, width !important;
+  -o-transition-property: top, bottom, width !important;
+  transition-property: top, bottom, width !important;
+  -webkit-transition-duration: .2s, .2s, .35s !important;
+  -o-transition-duration: .2s, .2s, .35s !important;
+  transition-duration: .2s, .2s, .35s !important;
+  -webkit-transition-timing-function: linear, linear, ease !important;
+  -o-transition-timing-function: linear, linear, ease !important;
+  transition-timing-function: linear, linear, ease !important;
+  width: 260px !important;
+  -webkit-box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.2) !important;
+  position: fixed !important;
+  top: 0 !important;
+  height: 100vh !important;
+  right: auto !important;
+  left: 0 !important;
+  visibility: visible;
+  overflow-y: auto !important;
+  border-top: none;
+  text-align: left;
+  padding-right: 0px;
+  padding-left: 0;
+  z-index: 500;
+  -webkit-transition: "all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1)";
+  -o-transition: "all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1)";
+  transition: "all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1)"; }
+
+.menuCollage {
+  width: 15px;
+  height: 120px;
+  border-radius: 0 40% 40% 0;
+  position: fixed;
+  top: 50%;
+  background: #006989;
+  z-index: 800;
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  left: 260px; }
+
+.menuCollageOut {
+  width: 0px;
+  height: 0px;
+  border-right: 70px solid transparent;
+  border-left: 70px solid transparent;
+  border-top: 100px solid #006989;
+  border-radius: 50%;
+  position: fixed;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 50%;
+  left: -100px; }
+
+#tv {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 20px 0;
+  background: red;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em; }
+
+#tv:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%; }

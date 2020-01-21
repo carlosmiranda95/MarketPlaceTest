@@ -1,0 +1,14 @@
+.MuiPickersToolbar-toolbar, .MuiPickersDay-daySelected {
+  background-color: #006989 !important; }
+
+.MuiButton-textPrimary {
+  color: #006989 !important; }
+
+.MuiPickersDay-current {
+  color: rgba(0, 105, 137, 0.8) !important; }
+
+.MuiPickersDay-daySelected {
+  color: #fff !important; }
+
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiFormLabel-filled.Mui-focused {
+  color: #006989 !important; }

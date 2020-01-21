@@ -1,0 +1,61 @@
+.dx-row.dx-header-row {
+  background: #006989 !important; }
+
+.dx-datagrid-nowrap .dx-header-row > td:hover,
+.dx-datagrid-action.dx-cell-focus-disabled:hover {
+  background: #006989 !important; }
+
+.dx-datagrid-nowrap .dx-header-row > td > .dx-datagrid-text-content,
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td .dx-sort-indicator,
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td .dx-sort,
+.dx-datagrid-text-content.dx-text-content-alignment-left.dx-header-filter-indicator,
+.dx-header-filter.dx-header-filter-empty,
+.dx-datagrid .dx-header-filter:not(.dx-header-filter-empty) {
+  color: #fff !important; }
+
+.dx-button-mode-text.dx-button-default {
+  color: #006989 !important; }
+
+.dx-button.dx-button-default.dx-button-mode-text.dx-widget.dx-button-has-text.dx-state-hover,
+.dx-button.dx-button-default.dx-button-mode-text.dx-widget.dx-button-has-text.dx-state-active,
+.dx-checkbox-checked .dx-checkbox-icon {
+  background: rgba(0, 105, 137, 0.7) !important;
+  color: #fff !important; }
+
+.dx-datagrid .dx-link {
+  color: rgba(0, 105, 137, 0.5) !important; }
+
+.dx-button.dx-button-default.dx-button-mode-text.dx-widget.dx-button-has-text.dx-state-focused {
+  background: rgba(0, 105, 137, 0.5) !important;
+  color: #fff !important; }
+
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row:not(.dx-edit-row) > td:not(.dx-focused), .dx-pager .dx-pages .dx-selection, .dx-pager .dx-page-sizes .dx-selection {
+  background: rgba(0, 105, 137, 0.5) !important;
+  color: #fff !important; }
+
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row:not(.dx-edit-row) .dx-command-edit .dx-link {
+  background: transparent  !important;
+  color: #fff !important; }
+
+.dx-datagrid-filter-panel .dx-icon-filter,
+.dx-datagrid-filter-panel .dx-datagrid-filter-panel-text,
+.dx-datagrid-filter-panel .dx-datagrid-filter-panel-clear-filter {
+  color: rgba(0, 105, 137, 0.5) !important; }
+
+.dx-datagrid .dx-row-alt > td {
+  background: rgba(0, 105, 137, 0.05) !important; }
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td,
+.dx-datagrid-filter-row {
+  background: rgba(0, 105, 137, 0.05) !important; }
+
+.dx-editor-cell .dx-texteditor .dx-texteditor-input {
+  background: transparent !important; }
+
+.dx-menu-item-expanded,
+.dx-item.dx-menu-item.dx-menu-item-has-icon.dx-menu-item-has-submenu:hover,
+.dx-item-content.dx-menu-item-content:hover {
+  background: rgba(0, 105, 137, 0.2) !important; }
+
+.dx-column-indicators {
+  float: right; }

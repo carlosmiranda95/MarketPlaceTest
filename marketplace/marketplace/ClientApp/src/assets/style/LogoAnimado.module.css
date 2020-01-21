@@ -1,0 +1,126 @@
+.internacionalInicio,#elementorojo,#lineaizquierda,#lineaderecha{
+  display: none;
+}
+.Capa_Login{
+width: 70%;
+}
+.elementorojo {
+  animation: animacion 2s linear;
+  animation-iteration-count: 1;
+  transition: all .3s ease;
+}
+
+@keyframes animacion {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+.lineaderecha{
+  display: block !important;
+  animation: animacionlineaderecha 2s linear;
+  animation-iteration-count: 1;
+  transition: all .3s ease-in;
+}
+@keyframes animacionlineaderecha {
+  0%{
+    transform: translateX(20px);
+  }
+  80%{
+    transform: translateX(20px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+.lineaizquierda{
+  display: block !important;
+  animation: animacionlineaizquierda 2s linear;
+  animation-iteration-count: 1;
+  transition: all .3s ease-in;
+}
+@keyframes animacionlineaizquierda {
+  0%{
+    transform: translateX(-20px);
+  }
+  80%{
+    transform: translateX(-20px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+.internacional{
+  display: block !important;
+  animation: animacioninternacional 2s linear;
+  animation-iteration-count: 1;
+  transition: all .30s ease;
+}
+@keyframes animacioninternacional {
+  0%{
+      transform: translateY(50px)
+  }
+  100%{
+      transform:  translateY(0px)
+  }
+}
+.path {
+  stroke-dasharray: 1000;
+  fill: #ffffff;
+  stroke-dashoffset: 0;
+  animation-iteration-count: 1;
+  animation: dash 10s linear;
+  transition: all .3s ease;
+  animation-direction: alternate;
+}
+
+@keyframes dash {
+    0%{
+      stroke-dashoffset: 1000;
+      fill: transparent;
+    }
+    15%{
+      fill: transparent;
+    }
+
+    100%{
+      fill: #ffffff;
+      stroke-dashoffset: 0;
+    }
+    20%{
+      transition: all .3s ease;
+      fill: transparent;
+    }
+    27%{
+      transition: all .3s ease;
+      fill: #ffffff;
+    }
+}
+.pathgrupo{
+  stroke-dasharray: 1000;
+  fill: #ffffff;
+  stroke-dashoffset: 0;
+  animation-iteration-count: 1;
+  animation: dashgrupo 50s linear;
+  transition: all .3s ease;
+  animation-direction: alternate;
+}
+
+@keyframes dashgrupo {
+  0%{
+    stroke-dashoffset: 1000;
+    fill: transparent;
+  }
+  5%{
+    fill: transparent;
+  }
+  6%{
+    transition: all .3s ease;
+    fill: #ffffff;
+  }
+}

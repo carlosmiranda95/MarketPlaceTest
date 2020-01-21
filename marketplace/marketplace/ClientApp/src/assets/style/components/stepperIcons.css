@@ -1,0 +1,8 @@
+.MuiStepIcon-root {
+  color: rgba(255, 255, 255, 0.2) !important; }
+
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: rgba(0, 0, 0, 0.38) !important; }
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: #43a047 !important; }

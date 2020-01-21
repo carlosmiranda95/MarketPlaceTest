@@ -1,0 +1,137 @@
+.ListProyectMembership {
+  opacity: 1;
+  -webkit-animation: Animation 0.5s linear;
+  animation: Animation 0.5s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  background: #1c1c1c !important;
+  z-index: 500; }
+
+@-webkit-keyframes Animation {
+  0% {
+    opacity: 0; }
+  81% {
+    opacity: 0; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1; } }
+
+@keyframes Animation {
+  0% {
+    opacity: 0; }
+  81% {
+    opacity: 0; }
+  100% {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1; } }
+
+.imgFondo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  position: relative;
+  width: 100vw;
+  padding: 0 !important;
+  margin: -150px 0px -4px !important;
+  z-index: 500;
+  -webkit-animation: Animation 0.5s linear;
+  animation: Animation 0.5s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+
+.logo {
+  z-index: 1000; }
+
+.fondo {
+  width: 100%; }
+
+.capaVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1c1c1c;
+  opacity: .2;
+  z-index: 100;
+  height: 100vh; }
+
+.video {
+  position: fixed;
+  top: -15px;
+  left: 0;
+  width: 100%; }
+
+@media (max-width: 1170px) {
+  .video {
+    top: 0;
+    height: 100vh;
+    width: auto !important; } }
+
+.colorFondo {
+  background: #1c1c1c !important; }
+
+.capaKalomaiMovil {
+  width: 100%;
+  height: calc(100vh - 250px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.capaKalomai {
+  width: 100%;
+  height: calc(100vh - 500px); }
+
+.containerProyectMembresia {
+  width: 100% !important;
+  position: absolute;
+  z-index: 600;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  -webkit-animation: Animation2 0.5s linear;
+  animation: Animation2 0.5s linear;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+
+@-webkit-keyframes Animation2 {
+  0% {
+    margin-top: 100px;
+    opacity: 0; }
+  51% {
+    margin-top: 100px;
+    opacity: 0; }
+  100% {
+    margin-top: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1; } }
+
+@keyframes Animation2 {
+  0% {
+    margin-top: 100px;
+    opacity: 0; }
+  51% {
+    margin-top: 100px;
+    opacity: 0; }
+  100% {
+    margin-top: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1; } }

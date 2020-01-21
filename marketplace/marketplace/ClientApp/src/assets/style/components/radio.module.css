@@ -1,0 +1,11 @@
+.root {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.colorPrimary {
+  color: #006989 !important; }
+  .colorPrimary:checked {
+    color: #006989 !important; }
+
+.focused {
+  color: #006989 !important; }

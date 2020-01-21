@@ -1,0 +1,73 @@
+#product-details {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto 0;
+}
+
+#product-details > img {
+  height: 300px;
+  width: 400px;
+}
+
+#product-details > .name {
+  text-align: center;
+  font-size: 20px;
+}
+
+#product-details > .price {
+  text-align: center;
+  font-size: 24px;
+}
+
+.dark #product-details > div {
+  color: #f0f0f0;
+}
+
+.options {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 260px;
+  top: 0;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option {
+  margin-top: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.MuiSlider-root.MuiSlider-marked span:nth-child(5){
+  transform: translateX(0) !important
+}
+.MuiSlider-root.MuiSlider-marked span:nth-last-child(2){
+  transform: translateX(0) !important;
+  left:unset !important;
+  right: 0;
+}
+
+.MuiSlider-root.MuiSlider-marked span:last-child{
+  background-color: green
+}
+.MuiInputBase-input.MuiInput-input.MuiInputBase-inputMarginDense.MuiInput-inputMarginDense.MuiInputBase-inputAdornedStart{
+  padding: 0;
+  margin-left: -5px;
+}
+.MuiTypography-root.MuiTypography-body1.MuiTypography-colorTextSecondary{
+  font-size: 13px !important;
+}
+
+.leaflet-container {
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}

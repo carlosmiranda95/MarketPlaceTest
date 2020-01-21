@@ -1,0 +1,17 @@
+.formControl {
+  width: 100%; }
+
+.selectMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.underline:hover:not(disabled):before, .underline:before {
+  border-color: #D2D2D2 !important;
+  border-width: 1px !important; }
+
+.underline:after {
+  border-bottom: 2px solid #006989 !important; }

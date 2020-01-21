@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2cb38c3d.chunk.css",
+    "main.js": "/static/js/main.3cd9679a.chunk.js",
+    "main.js.map": "/static/js/main.3cd9679a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e987c5d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e987c5d.js.map",
+    "static/js/2.ca5ebb7e.chunk.js": "/static/js/2.ca5ebb7e.chunk.js",
+    "static/js/2.ca5ebb7e.chunk.js.map": "/static/js/2.ca5ebb7e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.10b2aebaa4f88106baa01688ac175463.js": "/precache-manifest.10b2aebaa4f88106baa01688ac175463.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2cb38c3d.chunk.css.map": "/static/css/main.2cb38c3d.chunk.css.map",
+    "static/js/2.ca5ebb7e.chunk.js.LICENSE": "/static/js/2.ca5ebb7e.chunk.js.LICENSE",
+    "static/media/48.png": "/static/media/48.901d179f.png",
+    "static/media/PLATA_CREDITO.pdf": "/static/media/PLATA_CREDITO.ad96915c.pdf",
+    "static/media/Plano_Terreno.jpg": "/static/media/Plano_Terreno.5704553a.jpg",
+    "static/media/capacitation.jpg": "/static/media/capacitation.119938d0.jpg",
+    "static/media/fondo.svg": "/static/media/fondo.73d9061d.svg",
+    "static/media/fondo.mp4": "/static/media/fondo.92aaa64e.mp4",
+    "static/media/gruposion.svg": "/static/media/gruposion.5f644497.svg",
+    "static/media/kalamai-vista.jpg": "/static/media/kalamai-vista.5266d5f9.jpg",
+    "static/media/kalomai.jpg": "/static/media/kalomai.528c66ce.jpg",
+    "static/media/kalomai_bronce220x220.png": "/static/media/kalomai_bronce220x220.42e1af23.png",
+    "static/media/kalomai_oro220x220.png": "/static/media/kalomai_oro220x220.f54fa1ef.png",
+    "static/media/kalomai_plata220x220.png": "/static/media/kalomai_plata220x220.55eeaa1f.png",
+    "static/media/proyect.JPG": "/static/media/proyect.b594fe40.JPG",
+    "static/media/tarjetasCreditoDebito.png": "/static/media/tarjetasCreditoDebito.d96fbb56.png",
+    "static/media/tarjetasPrepago.png": "/static/media/tarjetasPrepago.1dcd5f30.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e987c5d.js",
+    "static/js/2.ca5ebb7e.chunk.js",
+    "static/css/main.2cb38c3d.chunk.css",
+    "static/js/main.3cd9679a.chunk.js"
+  ]
+}
